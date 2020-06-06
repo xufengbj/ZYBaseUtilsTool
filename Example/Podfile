@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZYBaseUtilsTool_Example' do
+  pod 'ZYBaseUtilsTool', :path => '../'
+
+  target 'ZYBaseUtilsTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
