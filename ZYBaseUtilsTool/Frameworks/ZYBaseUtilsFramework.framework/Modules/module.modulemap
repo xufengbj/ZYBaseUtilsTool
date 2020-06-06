@@ -1,0 +1,6 @@
+framework module ZYBaseUtilsFramework {
+  umbrella header "ZYBaseUtilsFramework.h"
+
+  export *
+  module * { export * }
+}

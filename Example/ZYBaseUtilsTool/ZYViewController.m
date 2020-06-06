@@ -7,6 +7,7 @@
 //
 
 #import "ZYViewController.h"
+#import <ZYBaseUtilsFramework/ZYLogTool.h>
 
 @interface ZYViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [ZYLogTool printObjcName:self];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
