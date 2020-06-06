@@ -7,6 +7,8 @@
 //
 
 #import "ZYViewController.h"
+#import <ZYBaseUtils/ZYUIDefine.h>
+#import <ZYBaseUtils/ZYBaseModel.h>
 
 @interface ZYViewController ()
 
@@ -17,6 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //[ZYLogTool printObjcName:self];
+    CGFloat  width = KSCREEN_WIDTH;
+    ZYBaseModel *model = [[ZYBaseModel alloc]init];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

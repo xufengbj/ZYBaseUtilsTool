@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		0372FDA0026337D97B787A2D /* Pods-ZYBaseUtilsTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYBaseUtilsTool_Example.release.xcconfig"; path = "Target Support Files/Pods-ZYBaseUtilsTool_Example/Pods-ZYBaseUtilsTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		399555FD00838BDD1BAB26CB /* Pods-ZYBaseUtilsTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYBaseUtilsTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZYBaseUtilsTool_Tests/Pods-ZYBaseUtilsTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		418BE6BAAC5BB7B08434597E /* ZYBaseUtilsTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZYBaseUtilsTool.podspec; path = ../ZYBaseUtilsTool.podspec; sourceTree = "<group>"; };
+		418BE6BAAC5BB7B08434597E /* ZYBaseUtilsTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZYBaseUtilsTool.podspec; path = ../ZYBaseUtilsTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		44EA565B9127EAD445316458 /* Pods_ZYBaseUtilsTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYBaseUtilsTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ZYBaseUtilsTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYBaseUtilsTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,12 +61,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		813B8C18707EA8785B4E1411 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		813B8C18707EA8785B4E1411 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		84916DE9F1C39DDAEA20BF87 /* Pods-ZYBaseUtilsTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYBaseUtilsTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZYBaseUtilsTool_Tests/Pods-ZYBaseUtilsTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB533B4A53A5A49B8CD6CECD /* Pods_ZYBaseUtilsTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYBaseUtilsTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0F708E6BF53C0977260A25 /* Pods-ZYBaseUtilsTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYBaseUtilsTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZYBaseUtilsTool_Example/Pods-ZYBaseUtilsTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E02EBB8D700AE8D120E0E409 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E02EBB8D700AE8D120E0E409 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				84916DE9F1C39DDAEA20BF87 /* Pods-ZYBaseUtilsTool_Tests.debug.xcconfig */,
 				399555FD00838BDD1BAB26CB /* Pods-ZYBaseUtilsTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -451,6 +451,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -483,6 +484,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -498,9 +500,15 @@
 				GCC_PREFIX_HEADER = "ZYBaseUtilsTool/ZYBaseUtilsTool-Prefix.pch";
 				INFOPLIST_FILE = "ZYBaseUtilsTool/ZYBaseUtilsTool-Info.plist";
 				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				VALID_ARCHS = "arm64e armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -514,9 +522,14 @@
 				GCC_PREFIX_HEADER = "ZYBaseUtilsTool/ZYBaseUtilsTool-Prefix.pch";
 				INFOPLIST_FILE = "ZYBaseUtilsTool/ZYBaseUtilsTool-Info.plist";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				VALID_ARCHS = "arm64e armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

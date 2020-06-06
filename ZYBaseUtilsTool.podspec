@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZYBaseUtilsTool'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZYBaseUtilsTool.'
+  s.summary          = '基础类库添加'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,6 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
+  s.vendored_frameworks = 'ZYBaseUtilsTool/Frameworks/**/*.framework'
   s.source_files = 'ZYBaseUtilsTool/Classes/**/*'
   
   # s.resource_bundles = {
